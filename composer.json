@@ -1,0 +1,22 @@
+{
+    "name": "laravelgems/blade-escape",
+    "description": "Custom blade directives to figth against XSS",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Leonid Shumakov",
+            "email": "leonid.shumakov@laragems.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.*",
+        "laravelgems/escape": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelGems\\BladeEscape\\": "src/"
+        }
+    },
+    "require-dev": {}
+}
